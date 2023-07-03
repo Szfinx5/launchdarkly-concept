@@ -1,5 +1,5 @@
 import express from "express";
-import { launchDarklyQuery } from "./launchdarkly.js";
+import { launchDarklyQuery } from "./launchDarkly.js";
 
 const router = express.Router();
 router.use(express.json());
